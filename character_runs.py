@@ -11,6 +11,10 @@ x = 0
 # 여기를 채우세요.
 def run_circle():
     print('CIRCLE')
+    clear_canvas_now()
+    grass.draw_now(400,30)
+    character.draw_now(400,90)
+    delay(1)
     pass
 
 def run_rectangle():
